@@ -1,9 +1,14 @@
+@font-face {
+    font-family: brasserie;
+    src: url(img/Brasserie.ttf);
+}
 body{
     background-color: rgba(0,0,0,0.8);
     color: #fff;
+    font-family: brasserie, sans-serif;
 }
 h1{
-
+    font-size: 6vh;
 }
 .title_main{
     margin-top: 5vh;
@@ -16,13 +21,15 @@ nav{
     border-bottom: 3px solid #fff;
 }
 nav ul{
+    /*font-size: 2.3vh;*/
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    /*flex-wrap: nowrap;*/
     justify-content: space-evenly;
 }
 nav ul li{
+    box-sizing: content-box;
     display: inline;
     width: 25px;
 }
@@ -42,4 +49,8 @@ main{
      width: 25px;
      height: 25px;
 
+ }
+ .card{
+     border: 1px solid #fff;
+     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
  }
