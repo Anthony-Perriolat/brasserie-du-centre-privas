@@ -55,8 +55,15 @@ main {
     font-size: 1.8vh;
 
 }
-.description_dish {
+.title_menus {
     font-size: 1.3vh;
+    margin-left: 1vw;
+    margin-right: 2vw;
+}
+.description_dish {
+    font-family: "Arial", sans-serif;
+
+    /*font-size: 1.3vh;*/
     margin-left: 1vw;
     margin-right: 2vw;
 }
@@ -74,5 +81,5 @@ main {
 }
 
 .price_dish {
-    letter-spacing: 6px;
+    letter-spacing: 10px;
 }
