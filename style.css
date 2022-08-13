@@ -6,6 +6,7 @@ body{
     background-color: rgba(0,0,0,0.8);
     color: #fff;
     font-family: brasserie, sans-serif;
+    text-shadow: 3px 3px black;
 }
 h1{
     font-size: 6vh;
@@ -36,6 +37,8 @@ nav ul li{
 a {
     color: #fff;
     text-decoration: none;
+    font-size: 2.5vh;
+    font: bold;
 }
 
 main{
