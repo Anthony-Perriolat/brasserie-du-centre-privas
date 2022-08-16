@@ -12,11 +12,21 @@
     <h1>Brasserie Du Centre | Privas</h1>
 </div>
 <nav class="card-nav">
-    <div><button id="index">Accueil</button></div>
-    <div><button id="salade">Salade</button></div>
-    <div><button id="plat">Plat</button></div>
-    <div><button id="dessert">Desert</button></div>
-    <div><button id="boisson">Boisson</button></div>
+    <div>
+        <button id="index">Accueil</button>
+    </div>
+    <div>
+        <button id="salade">Salade</button>
+    </div>
+    <div>
+        <button id="plat">Plat</button>
+    </div>
+    <div>
+        <button id="dessert">Desert</button>
+    </div>
+    <div>
+        <button id="boisson">Boisson</button>
+    </div>
 </nav>
 <main id="content" class="card">
     <h2 class="title_content">Menu du Jour</h2>
@@ -104,9 +114,9 @@
     <span class="title_dish">Steack Haché</span>
     <p class="price_dish">14 €</p>
     <hr class="half_line">
-    <span class="title_dish">Steack Tartare Charolais</span>
-    <p class="price_dish">16 €</p>
-    <hr class="half_line">
+<!--    <span class="title_dish">Steack Tartare Charolais</span>-->
+<!--    <p class="price_dish">16 €</p>-->
+<!--    <hr class="half_line">-->
     <span class="title_dish">Carpaccio de boeuf</span>
     <p class="price_dish">16 €</p>
     <hr class="half_line">
@@ -126,7 +136,7 @@
                     break;
 
                 case tab_page[4]:
-                    content.innerHTML =`
+                    content.innerHTML = `
                                         <h2 class="title_content" style="margin-left: 1%; margin-right: 1%;">La Plancha</h2>
 
     <span class="title_dish">La Plancha (Charcuteries d'ardèche)</span>
@@ -134,8 +144,13 @@
     <p class="description_dish">Caillette, Saucisson sec, Gratton, Terrine, Jambon Cru, 1/2 Picodon, Melon (Uniquement en été), Galette de
         pomme de terre rapées</p>
                                         <h2 class="title_content">Nos boissons</h2>
-<!--    <span class="description_dish">Entrée + Plat du jour + Dessert</span>-->
-<!--    <span class="price_dish">18,50 €</span>-->
+    <span class="description_dish">Pression</span>
+    <br>
+    <span class="title_drink">Kronenbourg</span>
+    <span class="price_drink">2,80 €</span>
+    <br>
+    <span class="title_drink">Grimbergen</span>
+    <span class="price_drink">4,20 €</span>
 <!--    <hr class="half_line">-->
                     `
                     break;
