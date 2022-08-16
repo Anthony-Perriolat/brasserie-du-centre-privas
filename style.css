@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-size: 6vh;
+    font-size: 7rem;
 }
 
 .title_main {
@@ -32,7 +32,7 @@ nav {
     margin: 5vh 5vw 5vh 5vw;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    /*flex-wrap: nowrap;*/
     justify-content: space-evenly;
 }
 
@@ -42,8 +42,8 @@ button {
     text-decoration: none;
     border: none;
     font-family: brasserie, sans-serif;
-    font-size: 2.6vh;
-    margin: auto;
+    font-size: 2.6rem;
+    /*margin: auto;*/
 }
 
 main {
@@ -59,27 +59,28 @@ main {
     font-family: brasserie, sans-serif;
 }
 .title_dish{
-    font-size: 1.8vh;
+    font-size: 1.8rem;
     letter-spacing: 10px;
 
 
 }
 .title_menus {
-    font-size: 2vh;
+    font-size: 2rem;
     margin-left: 1vw;
     margin-right: 2vw;
     letter-spacing: 10px;
+    font-style: oblique;
 
 }
 .description_dish {
-    font-size: 1.3vh;
+    font-size: 1.3rem;
     margin-left: 1vw;
     margin-right: 2vw;
 }
 
 .card-nav {
-    height: 130px;
-    /*height: 40%;*/
+    /*height: 130px;*/
+    height: 60%;
     border: 1px solid #fff;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
@@ -97,6 +98,7 @@ main {
 
 .price_dish {
     margin-left: 20px;
+    font-size: 1.5rem;
     letter-spacing: 20px;
     font-family: brasserie, sans-serif;
 
