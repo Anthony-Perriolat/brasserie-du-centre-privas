@@ -30,7 +30,7 @@ h1 {
 
 nav {
     border-bottom: 3px solid #fff;
-    /*margin: 5em 5em 5em 5em;*/
+    /*margin: 5rem 5rem 5rem 5rem;*/
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
