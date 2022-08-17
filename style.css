@@ -30,7 +30,7 @@ h1 {
 
 nav {
     border-bottom: 3px solid #fff;
-    margin: 5rem 5rem 5rem 5rem;
+    /*margin: 5em 5em 5em 5em;*/
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -81,6 +81,7 @@ main {
 
 .card-nav {
     /*height: 60%;*/
+    box-sizing: content-box;
     border: 1px solid #fff;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
