@@ -1,5 +1,15 @@
 
 
+function getYear(oldYear=2006) {
+  now = new Date
+  now = now.getFullYear()
+  target = document.getElementById("elder")
+  target1 = document.getElementById("elder1")
+  target.append(now-oldYear)
+  target1.append(now-oldYear)
+  return now-oldYear
+}
+getYear();
 
 (function() {
   "use strict";
