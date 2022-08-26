@@ -115,3 +115,14 @@ main {
     letter-spacing: 20px;
     font-family: brasserie, sans-serif;
 }
+.row_type_drink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card_drink {
+    border: 1px solid #fff;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    padding: 2em;
+    width: 49%;
+}
