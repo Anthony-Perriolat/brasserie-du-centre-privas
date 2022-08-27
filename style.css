@@ -9,7 +9,12 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.8);
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    background-image: url("560x315_024_3699583.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*backdrop-filter: blur(2px);*/
+
     color: #fff;
     font-family: cafe, sans-serif;
     text-shadow: 3px 3px black;
