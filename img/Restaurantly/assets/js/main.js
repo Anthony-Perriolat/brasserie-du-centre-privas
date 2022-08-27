@@ -1,5 +1,4 @@
 
-
 function getYear(oldYear=2006) {
   now = new Date
   now = now.getFullYear()
