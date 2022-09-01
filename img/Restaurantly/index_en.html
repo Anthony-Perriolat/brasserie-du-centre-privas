@@ -6,8 +6,10 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Center Cafe - Privas</title>
-    <meta content="The café du centre, a friendly place to stop and taste good local dishes. Menu of the day at €18.50" name="description">
-    <meta content="Coffee, restaurant, bar, brasserie, good privas dish, good ardéchois dish, privas, local restaurant, restaurant, privas restaurant, Ardèche restaurant" name="keywords">
+    <meta content="The café du centre, a friendly place to stop and taste good local dishes. Menu of the day at €18.50"
+          name="description">
+    <meta content="Coffee, restaurant, bar, brasserie, good privas dish, good ardéchois dish, privas, local restaurant, restaurant, privas restaurant, Ardèche restaurant"
+          name="keywords">
 
     <!-- Favicons -->
     <link href="assets/img/favicon.webp" rel="icon">
@@ -32,7 +34,14 @@
 </head>
 
 <body>
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <img class="img-fluid " src="assets/img/bar-du-centre.webp" alt="">
+        </div>
+    </div>
+</div>
 <!-- ======= Top Bar ======= -->
 <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -100,12 +109,12 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
-
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
                     <div class="about-img">
-                        <img src="assets/img/bar-du-centre.webp" alt="">
-                    </div>
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="assets/img/bar-du-centre.webp" alt="">
+                        </a></div>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                     <h3>Our Brasserie/Coffee welcomes you in a warm setting.</h3>
@@ -260,7 +269,8 @@
                         <a href="#">"Crétoise Salad</a><span>13 €</span>
                     </div>
                     <div class="menu-ingredients">
-                        Green salad, tomatoes, cucumbers, feta, black olives                    </div>
+                        Green salad, tomatoes, cucumbers, feta, black olives
+                    </div>
                 </div>
 
                 <div class="col-lg-6 menu-item filter-salads">
@@ -354,7 +364,9 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Thank you again for your welcome, the only restaurant out of 3 to welcome you after 1:30 p.m. Serves you with a smile and good humor. And put the children first, thank you again.
+                                Thank you again for your welcome, the only restaurant out of 3 to welcome you after 1:30
+                                p.m. Serves you with a smile and good humor. And put the children first, thank you
+                                again.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                             <!--                            <img src="assets/img/testimonials/testimonials-3.webp" class="testimonial-img" alt="">-->
@@ -366,7 +378,10 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                A bar just the way I like them, old and which reminds me of old Parisian bistros from the New Wave period, red/burgundy leatherette armchairs and a bar. The owner, a friendly Polish woman with a completely Ardèche accent! I recommend the Ardèche charcuterie platter. I adopted this place definitely 😊🌸🌸🌸
+                                A bar just the way I like them, old and which reminds me of old Parisian bistros from
+                                the New Wave period, red/burgundy leatherette armchairs and a bar. The owner, a friendly
+                                Polish woman with a completely Ardèche accent! I recommend the Ardèche charcuterie
+                                platter. I adopted this place definitely 😊🌸🌸🌸
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                             <!--                            <img src="assets/img/testimonials/testimonials-4.webp" class="testimonial-img" alt="">-->
@@ -379,7 +394,9 @@
                         <div class="testimonial-item">
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Very affordable prices, super generous plates and service with a smile. Nothing to say, finally young people who do not count their energy... Special mention to the Ardèche plancha and the sirloin.
+                                Very affordable prices, super generous plates and service with a smile. Nothing to say,
+                                finally young people who do not count their energy... Special mention to the Ardèche
+                                plancha and the sirloin.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                             <!--                            <img src="assets/img/testimonials/testimonials-5.webp" class="testimonial-img" alt="">-->
