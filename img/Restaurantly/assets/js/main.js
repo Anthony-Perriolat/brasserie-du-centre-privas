@@ -1,6 +1,6 @@
 
 
-function getYear(oldYear=2006) {
+function getYear(oldYear=1997) {
   now = new Date
   now = now.getFullYear()
   target = document.getElementById("elder")
