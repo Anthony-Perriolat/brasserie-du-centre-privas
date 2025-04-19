@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --primary-color: #fff;
+    --background-color: rgba(29, 29, 31, 0.95);
+    --accent-color: #d4af37;
+    --spacing-unit: 1rem;
+}
+
+body {
+    background-image: url("560x315_024_3699583.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 8vw, 7rem);
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title_main {
+    padding: 2rem 0;
+    text-align: center;
+    background: linear-gradient(180deg, var(--background-color) 0%, transparent 100%);
+}
+
+nav {
+    background-color: var(--background-color);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+button {
+    color: var(--primary-color);
+    background: none;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+button::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--accent-color);
+    transition: all 0.3s ease;
+}
+
+button:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+button:hover {
+    color: var(--accent-color);
+    transform: translateY(-2px);
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.title_content {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--accent-color);
+}
+
+.title_menus {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.price_dish {
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.title_dish {
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: block;
+    margin-top: 1.5rem;
+}
+
+.description_dish {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.half_line {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--primary-color), transparent);
+    margin: 2rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    button {
+        font-size: 1.2rem;
+    }
+    
+    main {
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    .title_content {
+        font-size: 2rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+main {
+    animation: fadeIn 0.8s ease-out;
+}
+
+.title_dish, .title_menus, .description_dish {
+    animation: fadeIn 0.5s ease-out backwards;
+}
